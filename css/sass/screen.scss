@@ -1,0 +1,46 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+//@import "compass/reset";
+@import "vars";
+
+
+/* ---------- *\
+	TYPOGRAPHY
+\* ---------- */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700|Roboto:100,400,700');
+
+
+$roboto: "Roboto", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+$open-con: "Open Sans Condensed", "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+
+
+
+//  Text Sizing ----------
+html,
+body {
+	//@include font-smoothing(on);
+	font-size:90%;
+	@media (min-width: $screen-lg) {
+ 		font-size:100%;
+	}
+}//html,body
+
+
+
+
+
+//Page Header
+.page-head {
+  background-color:#674172;
+  color:#FFF;
+  margin-bottom:2rem;
+  padding:4rem 0 2rem;
+}//page-head
+
+//Page Header
+.list-group {
+  margin-bottom:2rem;
+}//page-head

@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,400,700|Roboto:100,400,700");
+/* line 178, ../sass/_vars.scss */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ---------- *\
+	TYPOGRAPHY
+\* ---------- */
+/* line 22, ../sass/screen.scss */
+html,
+body {
+  font-size: 90%;
+}
+@media (min-width: 1200px) {
+  /* line 22, ../sass/screen.scss */
+  html,
+  body {
+    font-size: 100%;
+  }
+}
+
+/* line 36, ../sass/screen.scss */
+.page-head {
+  background-color: #674172;
+  color: #FFF;
+  margin-bottom: 2rem;
+  padding: 4rem 0 2rem;
+}
+
+/* line 44, ../sass/screen.scss */
+.list-group {
+  margin-bottom: 2rem;
+}
