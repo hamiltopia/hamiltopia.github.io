@@ -38,3 +38,8 @@ body {
 .list-group {
   margin-bottom: 2rem;
 }
+
+/* line 48, ../sass/screen.scss */
+textarea.form-control {
+  min-height: 10rem;
+}
