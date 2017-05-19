@@ -44,13 +44,24 @@ body {
 	@media (min-width: $screen-md) {
 		padding:4rem 0 2rem;
 	}
-	
+
 	@media (min-width: $screen-lg) {
 		padding:8rem 0 4rem;
 	}
 
 	h1 {
+		font-weight: 900;
+		font-size: 2rem;
+		text-transform: lowercase;
 		text-shadow: 1px 1px 1px #333333;
+
+		@media (min-width: $screen-md) {
+			font-size: 3rem;
+		}
+
+		@media (min-width: $screen-lg) {
+			font-size: 4rem;
+		}
 	}
 }//page-head
 

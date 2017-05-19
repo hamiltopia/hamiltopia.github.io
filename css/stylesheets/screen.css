@@ -49,15 +49,30 @@ body {
 }
 /* line 52, ../sass/screen.scss */
 .page-head h1 {
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: lowercase;
   text-shadow: 1px 1px 1px #333333;
 }
+@media (min-width: 992px) {
+  /* line 52, ../sass/screen.scss */
+  .page-head h1 {
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 52, ../sass/screen.scss */
+  .page-head h1 {
+    font-size: 4rem;
+  }
+}
 
-/* line 58, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .list-group {
   margin-bottom: 2rem;
 }
 
-/* line 63, ../sass/screen.scss */
+/* line 74, ../sass/screen.scss */
 textarea.form-control {
   min-height: 10rem;
 }
