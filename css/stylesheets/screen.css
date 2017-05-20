@@ -28,51 +28,64 @@ body {
 
 /* line 36, ../sass/screen.scss */
 .page-head {
-  background: #674172 url(https://unsplash.it/1920/600?image=844) no-repeat center center;
+  background: #674172 url(https://unsplash.it/1920/600?image=1078) no-repeat center center;
   background-attachment: fixed;
   background-size: cover;
   color: #FFF;
   margin-bottom: 2rem;
-  padding: 2rem 0 1rem;
+}
+/* line 46, ../sass/screen.scss */
+.page-head .container {
+  height: 5rem;
+  overflow: hidden;
+  position: relative;
 }
 @media (min-width: 992px) {
-  /* line 36, ../sass/screen.scss */
-  .page-head {
-    padding: 4rem 0 2rem;
+  /* line 46, ../sass/screen.scss */
+  .page-head .container {
+    height: 7rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 36, ../sass/screen.scss */
-  .page-head {
-    padding: 8rem 0 4rem;
+  /* line 46, ../sass/screen.scss */
+  .page-head .container {
+    height: 10rem;
   }
 }
-/* line 52, ../sass/screen.scss */
+/* line 61, ../sass/screen.scss */
 .page-head h1 {
   font-weight: 900;
   font-size: 2rem;
+  letter-spacing: -.08rem;
+  margin: 0;
   text-transform: lowercase;
   text-shadow: 1px 1px 1px #333333;
+  bottom: -6px;
+  left: 0;
+  position: absolute;
+  z-index: 1;
 }
 @media (min-width: 992px) {
-  /* line 52, ../sass/screen.scss */
+  /* line 61, ../sass/screen.scss */
   .page-head h1 {
+    bottom: -9px;
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 52, ../sass/screen.scss */
+  /* line 61, ../sass/screen.scss */
   .page-head h1 {
+    bottom: -14px;
     font-size: 4rem;
   }
 }
 
-/* line 69, ../sass/screen.scss */
+/* line 87, ../sass/screen.scss */
 .list-group {
   margin-bottom: 2rem;
 }
 
-/* line 74, ../sass/screen.scss */
+/* line 92, ../sass/screen.scss */
 textarea.form-control {
   min-height: 10rem;
 }
