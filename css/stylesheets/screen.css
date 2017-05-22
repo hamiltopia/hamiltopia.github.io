@@ -26,7 +26,14 @@ body {
   }
 }
 
-/* line 36, ../sass/screen.scss */
+/* line 33, ../sass/screen.scss */
+img {
+  height: auto;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* line 43, ../sass/screen.scss */
 .page-head {
   background: #674172;
   background: #674172;
@@ -40,23 +47,23 @@ body {
   color: #FFF;
   margin-bottom: 2rem;
 }
-/* line 60, ../sass/screen.scss */
+/* line 67, ../sass/screen.scss */
 .page-head .container {
   padding: 2rem 0 1rem;
 }
 @media (min-width: 992px) {
-  /* line 60, ../sass/screen.scss */
+  /* line 67, ../sass/screen.scss */
   .page-head .container {
     padding: 4rem 0 2rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 60, ../sass/screen.scss */
+  /* line 67, ../sass/screen.scss */
   .page-head .container {
     padding: 6rem 0 2rem;
   }
 }
-/* line 73, ../sass/screen.scss */
+/* line 80, ../sass/screen.scss */
 .page-head h1 {
   font-weight: 700;
   font-size: 2rem;
@@ -65,24 +72,24 @@ body {
   text-shadow: 1px 1px 1px #333333;
 }
 @media (min-width: 992px) {
-  /* line 73, ../sass/screen.scss */
+  /* line 80, ../sass/screen.scss */
   .page-head h1 {
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 73, ../sass/screen.scss */
+  /* line 80, ../sass/screen.scss */
   .page-head h1 {
     font-size: 4rem;
   }
 }
 
-/* line 91, ../sass/screen.scss */
+/* line 98, ../sass/screen.scss */
 .list-group {
   margin-bottom: 2rem;
 }
 
-/* line 96, ../sass/screen.scss */
+/* line 103, ../sass/screen.scss */
 textarea.form-control {
   min-height: 10rem;
 }
