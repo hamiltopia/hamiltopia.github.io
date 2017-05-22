@@ -28,64 +28,61 @@ body {
 
 /* line 36, ../sass/screen.scss */
 .page-head {
-  background: #674172 url(https://unsplash.it/1920/600?image=1078) no-repeat center center;
-  background-attachment: fixed;
-  background-size: cover;
+  background: #674172;
+  background: #674172;
+  background: -moz-linear-gradient(45deg, #674172 0%, #935da3 99%, #935da3 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #674172), color-stop(99%, #935da3), color-stop(100%, #935da3));
+  background: -webkit-linear-gradient(45deg, #674172 0%, #935da3 99%, #935da3 100%);
+  background: -o-linear-gradient(45deg, #674172 0%, #935da3 99%, #935da3 100%);
+  background: -ms-linear-gradient(45deg, #674172 0%, #935da3 99%, #935da3 100%);
+  background: linear-gradient(45deg, #674172 0%, #935da3 99%, #935da3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#674172', endColorstr='#935da3', GradientType=1 );
   color: #FFF;
   margin-bottom: 2rem;
 }
-/* line 46, ../sass/screen.scss */
+/* line 60, ../sass/screen.scss */
 .page-head .container {
-  height: 5rem;
-  overflow: hidden;
-  position: relative;
+  padding: 2rem 0 1rem;
 }
 @media (min-width: 992px) {
-  /* line 46, ../sass/screen.scss */
+  /* line 60, ../sass/screen.scss */
   .page-head .container {
-    height: 7rem;
+    padding: 4rem 0 2rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 46, ../sass/screen.scss */
+  /* line 60, ../sass/screen.scss */
   .page-head .container {
-    height: 10rem;
+    padding: 6rem 0 2rem;
   }
 }
-/* line 61, ../sass/screen.scss */
+/* line 73, ../sass/screen.scss */
 .page-head h1 {
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2rem;
   letter-spacing: -.08rem;
   margin: 0;
-  text-transform: lowercase;
   text-shadow: 1px 1px 1px #333333;
-  bottom: -6px;
-  left: 0;
-  position: absolute;
-  z-index: 1;
 }
 @media (min-width: 992px) {
-  /* line 61, ../sass/screen.scss */
+  /* line 73, ../sass/screen.scss */
   .page-head h1 {
-    bottom: -9px;
     font-size: 3rem;
   }
 }
 @media (min-width: 1200px) {
-  /* line 61, ../sass/screen.scss */
+  /* line 73, ../sass/screen.scss */
   .page-head h1 {
-    bottom: -14px;
     font-size: 4rem;
   }
 }
 
-/* line 87, ../sass/screen.scss */
+/* line 91, ../sass/screen.scss */
 .list-group {
   margin-bottom: 2rem;
 }
 
-/* line 92, ../sass/screen.scss */
+/* line 96, ../sass/screen.scss */
 textarea.form-control {
   min-height: 10rem;
 }
