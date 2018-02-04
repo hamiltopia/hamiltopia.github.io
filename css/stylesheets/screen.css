@@ -56,3 +56,9 @@ a:hover {
 textarea.form-control {
   min-height: 10rem;
 }
+
+/* line 66, ../sass/screen.scss */
+.imgur-embed-iframe-pub {
+  max-width: 100% !important;
+  width: 100%;
+}
