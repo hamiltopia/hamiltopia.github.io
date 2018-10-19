@@ -1,10 +1,10 @@
-//----------
+/* ---------- *\-
 // VARS
-//----------
+/* ---------- *\-
 
-//----------
+/* ---------- *\-
 // Font Smoothing
-//----------
+/* ---------- *\-
 //
 @mixin font-smoothing($value: on) {
     @if $value == on {
@@ -21,9 +21,9 @@
 
 
 
-//---------
-// MEDIA QUERIES
-//---------
+/* ---------- *\
+  MEDIA QUERIES
+\* ---------- */
 
 $screen-xs:                  480px !default;
 $screen-sm:                  768px !default;
@@ -37,9 +37,9 @@ $screen-lg-desktop:          $screen-lg-min !default;
 
 
 
-//----------
-// DIY BREAKPOINTS
-//----------
+/* ---------- *\
+  // DIY BREAKPOINTS
+\* ---------- */
 @mixin breakpoint($point) {
   @if $point == large {
     @media (min-width: 64.375em) { @content; }
@@ -62,9 +62,9 @@ $screen-lg-desktop:          $screen-lg-min !default;
 
 
 
-//----------
+/* ---------- *\-
 // BORDER RADIUS
-//----------
+/* ---------- *\-
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
   border-radius: $radius;
@@ -108,9 +108,9 @@ $screen-lg-desktop:          $screen-lg-min !default;
 
 
 
-//----------
+/* ---------- *\-
 // OPACITY
-//----------
+/* ---------- *\-
 @mixin opacity($opacity) {
   opacity: $opacity;
   $opacity-ie: $opacity * 100;
@@ -119,9 +119,9 @@ $screen-lg-desktop:          $screen-lg-min !default;
 //@include opacity(0.8);
 
 
-//----------
+/* ---------- *\-
 // CENTER ALIGN BLOCK
-//----------
+/* ---------- *\-
 @mixin center-block {
   display: block;
   margin-left: auto;
@@ -131,9 +131,9 @@ $screen-lg-desktop:          $screen-lg-min !default;
 //@include center-block;
 
 
-//----------
+/* ---------- *\-
 // COLORS
-//----------
+/* ---------- *\-
 $black: #000;
 $black-one: lighten( $black, 30% );
 $black-two: lighten( $black, 90% );
@@ -150,9 +150,9 @@ $link-hover: lighten( $link, 30% );
 
 
 
-//----------
+/* ---------- *\-
 // FONT SIZE
-//----------
+/* ---------- *\-
 @mixin font-size($sizeValue: 12 ){
   font-size: $sizeValue + px; //fallback for old browsers
   font-size: (0.125 * $sizeValue) + rem;
@@ -161,9 +161,9 @@ $link-hover: lighten( $link, 30% );
 //   @include font-size(16);
 // }
 
-//----------
+/* ---------- *\-
 // LINE HEIGHT
-//----------
+/* ---------- *\-
 @mixin line-height($heightValue: 12 ){
    line-height: $heightValue + px; //fallback for old browsers
    line-height: (0.125 * $heightValue) + rem;
@@ -171,9 +171,9 @@ $link-hover: lighten( $link, 30% );
 
 
 
-//----------
+/* ---------- *\-
 // CLEARFIX
-//----------
+/* ---------- *\-
 .clearfix {
   &:after {
     content: "";
@@ -186,9 +186,9 @@ $link-hover: lighten( $link, 30% );
 
 
 
-//----------
+/* ---------- *\-
 // ROTATE
-//----------
+/* ---------- *\-
 @mixin rotate($degrees) {
     -webkit-transform: rotate($degrees);
     -moz-transform: rotate($degrees);
@@ -202,9 +202,9 @@ $link-hover: lighten( $link, 30% );
 //@include rotate(-45deg);
 
 
-//----------
+/* ---------- *\-
 // OPACITY
-//----------
+/* ---------- *\-
 @mixin Opacity($value){
   $IEValue: $value*100;
   opacity: $value;
@@ -215,9 +215,9 @@ $link-hover: lighten( $link, 30% );
 //@include Opacity(0);
 
 
-//----------
+/* ---------- *\-
 // BOX SIZING
-//----------
+/* ---------- *\-
 @mixin box-sizing($box-model) {
   -webkit-box-sizing: $box-model; // Safari <= 5
      -moz-box-sizing: $box-model; // Firefox <= 19
@@ -227,9 +227,9 @@ $link-hover: lighten( $link, 30% );
 //@include box-sizing(border-box);
 
 
-//----------
+/* ---------- *\-
 // VERTICALLY ALIGN ANYTHING
-//----------
+/* ---------- *\-
 @mixin vertical-align($position: relative) {
   position: $position;
   top: 50%;
@@ -243,9 +243,9 @@ $link-hover: lighten( $link, 30% );
 // }
 
 
-//----------
+/* ---------- *\-
 // CSS3 TRANSITIONS
-//----------
+/* ---------- *\-
 @mixin transition($args...) {
   -webkit-transition: $args;
   -moz-transition: $args;
